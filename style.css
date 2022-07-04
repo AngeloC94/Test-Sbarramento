@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+}
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.leftside {
+    height: 100%;
+    width: 20%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.segnaposto {
+    background-color: blueviolet;
+    height: 50px;
+    width: 100px;
+    margin: 10px;
+}
+
+.rightside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(97, 42, 42);
+    height: 10%;
+
+}
+.btn-dh-top{
+    text-align: center;
+    height: 35px;
+    border: none;
+    background-color: gray;
+    font-weight: 800;
+    border-radius: 7px;
+}
+.container-center{
+    height: 30%; 
+    display: flex;
+    justify-content: center;
+}
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;        
+    background-color: rgb(23, 51, 12);
+    width: 70%;
+    
+    
+    
+}
+input{
+    height: 30px;
+    width: 30%;
+    margin: 10px;
+}
+.btn-dh-center{
+    height: 10%;
+    width: 20%;
+    margin: 10px;
+    border: none;
+    background-color: gray;
+    font-weight: 800;
+    border-radius: 7px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+}
+.ball{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50px;
+}
